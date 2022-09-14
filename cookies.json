@@ -1,0 +1,1 @@
+[{"domain": ".rospotrebnadzor.ru", "httpOnly": true, "name": "auth_token", "path": "/", "secure": false, "value": "644ba86514a0d5f7a08bac74f9b59c0a17c3b909"}, {"domain": "sed.rospotrebnadzor.ru", "expiry": 1678281942, "httpOnly": false, "name": "last_login_u_id", "path": "/", "secure": false, "value": "857949"}]
