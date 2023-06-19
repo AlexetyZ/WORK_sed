@@ -1,7 +1,7 @@
 import docx
 import re
 
-doc = docx.Document("C:\\Users\\user\\PycharmProjects\\django3\\SPD\\SPD\\apps\\proverka\\doc_templates\\шаблон протокола об административных правонарушениях.docx")
+doc = docx.Document("C:\\Users\zaitsev_ad\PycharmProjects\WORK_sed\шаблоны\основные\Шаблон письма.docx")
 
 
 # print(doc.paragraphs[9].text)

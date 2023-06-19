@@ -41,7 +41,7 @@ class Otpravka():
         # }
         # self.login_request()
 
-        self.Controller()
+        # self.Controller()
 
     def Controller(self):
         self.options = webdriver.ChromeOptions()
@@ -217,5 +217,5 @@ class Otpravka():
     #     return N_doc
 
 
-# if __name__ == '__main__':
-#     Avtorization()
+if __name__ == '__main__':
+    Otpravka().Autorization()

@@ -1,0 +1,109 @@
+2023-01-18 09:38:38,045 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 09:38:41,206 - [WARNING] - __main__ - autorize(116) - Message: Element <button class="_Button_5bv2s_1 _ButtonDefault_5bv2s_55 ButtonDefault _ButtonLarge_5bv2s_31 _ButtonLinkButton_5bv2s_39" type="button"> is not clickable at point (642,578) because another element <div class="_LoaderWrap_ksq0q_1"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-01-18 09:38:41,231 - [WARNING] - __main__ - autorize(127) - ex=NoSuchElementException()
+2023-01-18 10:00:53,731 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:00:55,477 - [WARNING] - __main__ - autorize(116) - Message: Element <button class="_Button_5bv2s_1 _ButtonDefault_5bv2s_55 ButtonDefault _ButtonLarge_5bv2s_31 _ButtonLinkButton_5bv2s_39" type="button"> is not clickable at point (642,578) because another element <div class="_LoaderWrap_ksq0q_1"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-01-18 10:00:55,507 - [WARNING] - __main__ - autorize(127) - ex=NoSuchElementException()
+2023-01-18 10:02:07,264 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:08:34,522 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:09:41,198 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:09:42,747 - [ERROR] - __main__ - autorize(116) - не получилось, не фартануло
+Traceback (most recent call last):
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\selen_trying.py", line 114, in autorize
+    (By.XPATH, '//*[@id="root"]/div/main/div/form/div[2]/button[2]'))).click()
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element <button class="_Button_5bv2s_1 _ButtonDefault_5bv2s_55 ButtonDefault _ButtonLarge_5bv2s_31 _ButtonLinkButton_5bv2s_39" type="button"> is not clickable at point (642,578) because another element <div class="_LoaderWrap_ksq0q_1"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-01-18 10:09:42,758 - [WARNING] - __main__ - autorize(127) - ex=NoSuchElementException()
+2023-01-18 10:10:28,861 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:10:40,839 - [INFO] - __main__ - autorize(160) - Autorization successfull completed!
+2023-01-18 10:11:45,846 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:11:47,787 - [ERROR] - __main__ - autorize(116) - не получилось, не фартануло
+Traceback (most recent call last):
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\selen_trying.py", line 114, in autorize
+    (By.XPATH, '//*[@id="root"]/div/main/div/form/div[2]/button[2]'))).click()
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element <button class="_Button_5bv2s_1 _ButtonDefault_5bv2s_55 ButtonDefault _ButtonLarge_5bv2s_31 _ButtonLinkButton_5bv2s_39" type="button"> is not clickable at point (642,578) because another element <div class="_LoaderWrap_ksq0q_1"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-01-18 10:11:47,897 - [WARNING] - __main__ - autorize(127) - ex=NoSuchElementException()
+2023-01-18 10:12:43,396 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:12:45,858 - [ERROR] - __main__ - autorize(116) - не получилось, не фартануло
+Traceback (most recent call last):
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\selen_trying.py", line 114, in autorize
+    (By.XPATH, '//*[@id="root"]/div/main/div/form/div[2]/button[2]'))).click()
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 93, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\zaitsev_ad\PycharmProjects\WORK_sed\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element <button class="_Button_5bv2s_1 _ButtonDefault_5bv2s_55 ButtonDefault _ButtonLarge_5bv2s_31 _ButtonLinkButton_5bv2s_39" type="button"> is not clickable at point (960,614) because another element <div class="_LoaderWrap_ksq0q_1"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-01-18 10:12:45,909 - [WARNING] - __main__ - autorize(127) - ex=NoSuchElementException()
+2023-01-18 10:13:44,260 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:15:15,168 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:16:27,726 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:18:13,618 - [INFO] - __main__ - __init__(58) - Начало авторизации
+2023-01-18 10:18:34,649 - [INFO] - __main__ - autorize(160) - Autorization successfull completed!
+2023-01-18 13:44:49,983 - [INFO] - __main__ - __init__(67) - Начало авторизации
+2023-01-18 13:45:11,265 - [INFO] - __main__ - autorize(172) - Autorization successfull completed!
+2023-01-18 13:46:16,170 - [INFO] - __main__ - __init__(67) - Начало авторизации
+2023-01-18 13:46:27,271 - [INFO] - __main__ - autorize(172) - Autorization successfull completed!

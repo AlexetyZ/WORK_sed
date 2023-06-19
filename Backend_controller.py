@@ -222,38 +222,38 @@ class ChekNew:
 
 
 
-    # def login_request(self):
-    #     link = 'https://sed.rospotrebnadzor.ru/auth.php?group_id=3204'
-    #     apply_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=0&dcv_status=1&category=6&DNSID=wXwaCw5PYykCpa7Zla8AjhQ'
-    #     revision_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=1&category=6&DNSID=w9gfvomxjNRwo_HbkP_MOCg'
-    #     registred_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=2&c_user_status_type=1&category=6&DNSID=w9gfvomxjNRwo_HbkP_MOCg'
-    #
-    #     data = {
-    #         "DNSID": self.DNSID,
-    #         "group_id": "32043",
-    #         "login": "%D3%E4%E0%EB%EE%E2%E0+%D2.%C0.",
-    #         "user_id": self.SED_ID,
-    #         "password": self.password,
-    #         "x": "1"
-    #     }
-    #
-    #     response = self.session.post(link, data=data, headers=self.header)
-        # soup_resp = BeautifulSoup(response.text, 'lxml')
-        # print(soup_resp)
+    def login_request(self):
+        link = 'https://sed.rospotrebnadzor.ru/auth.php?group_id=3204'
+        apply_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=0&dcv_status=1&category=6&DNSID=wXwaCw5PYykCpa7Zla8AjhQ'
+        revision_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=1&category=6&DNSID=w9gfvomxjNRwo_HbkP_MOCg'
+        registred_link = 'https://sed.rospotrebnadzor.ru/document.php?all=1&c_user_status=2&c_user_status_type=1&category=6&DNSID=w9gfvomxjNRwo_HbkP_MOCg'
 
-    # def get_dnsid(self):
-    #     with requests.Session() as session:
-    #         user = fake_useragent.FakeUserAgent().random
-    #         headers = {
-    #             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    #             'User-Agent': user
-    #         }
-    #         url = 'https://sed.rospotrebnadzor.ru/auth.php?uri=/'
-    #         request = session.get(url, headers=headers)
-    #         soup = BeautifulSoup(request.text, 'lxml')
-    #         dnsid = soup.find('input', {'type': 'hidden'}).get('value')
-    #
-    #         return dnsid
+        data = {
+            "DNSID": self.DNSID,
+            "group_id": "32043",
+            "login": "%D3%E4%E0%EB%EE%E2%E0+%D2.%C0.",
+            "user_id": self.SED_ID,
+            "password": self.password,
+            "x": "1"
+        }
+
+        response = self.session.post(link, data=data, headers=self.header)
+        soup_resp = BeautifulSoup(response.text, 'lxml')
+        print(soup_resp)
+
+    def get_dnsid(self):
+        with requests.Session() as session:
+            user = fake_useragent.FakeUserAgent().random
+            headers = {
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'User-Agent': user
+            }
+            url = 'https://sed.rospotrebnadzor.ru/auth.php?uri=/'
+            request = session.get(url, headers=headers)
+            soup = BeautifulSoup(request.text, 'lxml')
+            dnsid = soup.find('input', {'type': 'hidden'}).get('value')
+
+            return dnsid
 
 if __name__ == "__main__":
     ChekNew()

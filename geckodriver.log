@@ -17429,3 +17429,322 @@ JavaScript warning: https://sed.rospotrebnadzor.ru/?DNSID=wDf3h8nmoj1Ght759-zS-C
 JavaScript warning: https://sed.rospotrebnadzor.ru/?DNSID=wDf3h8nmoj1Ght759-zS-Cg&frmsearch=get&search=&search=%F1%EE%E3%EB-217166333-1, line 2162: unreachable code after return statement
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://sed.rospotrebnadzor.ru"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1674022457145	geckodriver	INFO	Listening on 127.0.0.1:51759
+1674022460191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51760" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileOIu2z5"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674022461417	Marionette	INFO	Marionette enabled
+1674022461433	Marionette	INFO	Listening on port 51765
+WebDriver BiDi listening on ws://127.0.0.1:51760
+1674022462457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileOIu2z5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51760/devtools/browser/df824a70-b28c-48a5-8ef9-bed8a028e9b7
+JavaScript warning: https://sed.rospotrebnadzor.ru/js/map.php?13.3-rnhxz5, line 35640: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sed.rospotrebnadzor.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://sed.rospotrebnadzor.ru."
+JavaScript warning: https://sed.rospotrebnadzor.ru/js/map.php?13.3-rnhxz5, line 35640: unreachable code after return statement
+1674022488759	Marionette	INFO	Stopped listening on port 51765
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1674022714093	geckodriver	INFO	Listening on 127.0.0.1:52291
+1674022717157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52292" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofiledFHHvu"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674022718438	Marionette	INFO	Marionette enabled
+1674022718451	Marionette	INFO	Listening on port 52298
+WebDriver BiDi listening on ws://127.0.0.1:52292
+1674022719079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofiledFHHvu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52292/devtools/browser/cf9e8b3b-5e4d-4734-b68c-0101e2657652
+JavaScript warning: https://sed.rospotrebnadzor.ru/js/map.php?13.3-rnhxz5, line 35640: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674023914875	Marionette	INFO	Stopped listening on port 52298
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=1c6fa9da100","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3808,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:164","chrome://global/content/elements/browser-custom-element.js:get loadContext:385","chrome://global/content/elements/browser-custom-element.js:construct:995","chrome://global/content/elements/browser-custom-element.js:connectedCallback:323","chrome://browser/content/tabbrowser.js:_setupInitialBrowserAndTab:413","chrome://browser/content/tabbrowser.js:init:55","chrome://browser/content/browser.js:onDOMContentLoaded:1738"]}] Barrier: profile-before-change
+ITSE~1\\AppData\\Local\\Temp\\rust_mozprofileDqotox\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54769/devtools/browser/d3cfe63b-f21c-4adf-8c17-069d22250077
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674025244549	Marionette	INFO	Stopped listening on port 54921674025247170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57187" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofile6wRHXn"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025249432	Marionette	INFO	Marionette enabled
+1674025249446	Marionette	INFO	Listening on port 57193
+WebDriver BiDi listening on ws://127.0.0.1:57187
+1674025250199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofile6wRHXn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57187/devtools/browser/5bab7ead-f742-4c27-bea9-1a884d9fd646
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+1674025309742	Marionette	INFO	Stopped listening on port 57193
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 12132, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1674025315837	geckodriver	INFO	Listening on 127.0.0.1:57242
+1674025319279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57243" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilegLr9pU"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025320660	Marionette	INFO	Marionette enabled
+1674025320671	Marionette	INFO	Listening on port 57248
+WebDriver BiDi listening on ws://127.0.0.1:57243
+1674025321096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilegLr9pU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57243/devtools/browser/4d486831-4fb3-4555-a9d2-5112c6e209ec
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1674025708392	Marionette	INFO	Stopped listening on port 57241674025710223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57407" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilelTSP2G"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025710850	Marionette	INFO	Marionette enabled
+1674025710860	Marionette	INFO	Listening on port 57413
+WebDriver BiDi listening on ws://127.0.0.1:57407
+1674025711390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilelTSP2G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57407/devtools/browser/5aa6f953-cd00-4eff-b26e-21124002ecac
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+1674025777360	Marionette	INFO	Stopped listening on port 57413
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57465" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileAG1veX"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025778097	Marionette	INFO	Marionette enabled
+1674025778109	Marionette	INFO	Listening on port 57470
+WebDriver BiDi listening on ws://127.0.0.1:57465
+1674025778341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileAG1veX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57465/devtools/browser/50625169-1299-4a55-a790-4eed9065bb9a
+1674025797349	Marionette	INFO	Stopped listening on port 57470
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1674025821141	geckodriver	INFO	Listening on 127.0.0.1:57521
+1674025824218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57522" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileo7UikN"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025824843	Marionette	INFO	Marionette enabled
+1674025824853	Marionette	INFO	Listening on port 57527
+WebDriver BiDi listening on ws://127.0.0.1:57522
+1674025825436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileo7UikN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57522/devtools/browser/75448b90-1eb8-45ad-bffa-34a1fc3c1979
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+1674025891130	Marionette	INFO	Stopped listening on port 57527
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674025898084	geckodriver	INFO	Listening on 127.0.0.1:57593
+1674025901158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57594" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileqyYhWt"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025901842	Marionette	INFO	Marionette enabled
+1674025901855	Marionette	INFO	Listening on port 57599
+WebDriver BiDi listening on ws://127.0.0.1:57594
+1674025902382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileqyYhWt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57594/devtools/browser/0200a669-84c7-4343-947d-a5a6fea40dda
+1674025925802	Marionette	INFO	Stopped listening on port 57599
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+WARNING: A blocker encountered an error while we were waitin1674025930541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57640" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilewKyghp"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674025931179	Marionette	INFO	Marionette enabled
+1674025931191	Marionette	INFO	Listening on port 57645
+WebDriver BiDi listening on ws://127.0.0.1:57640
+1674025931775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilewKyghp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57640/devtools/browser/a8dc8d5a-8864-4fc0-ac18-923b13611ce2
+JavaScript error: https://private.proverki.gov.ru/assets/index.62e50659.js, line 4: uncaught exception: Истекло время ожидания загрузки плагина
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674026429967	Marionette	INFO	Stopped listening on port 57645
+ules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1674026016615	geckodriver	INFO	Listening on 127.0.0.1:57686
+1674026019662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--remote-debugging-port" "57687" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilelzKryE"
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674026020327	Marionette	INFO	Marionette enabled
+1674026020337	Marionette	INFO	Listening on port 57692
+WebDriver BiDi listening on ws://127.0.0.1:57687
+1674026020830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilelzKryE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57687/devtools/browser/b275ab61-56e4-41b8-9ec0-48950a14f4ad
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+1674026195873	Marionette	INFO	Stopped listening on port 57692
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+disable-native-events" "disable-infobars" "--disable-extensions" "--headless" "--remote-debugging-port" "57755" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileq033C7"
+*** You are running in headless mode.
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674026113018	Marionette	INFO	Marionette enabled
+1674026113027	Marionette	INFO	Listening on port 57760
+WebDriver BiDi listening on ws://127.0.0.1:57755
+1674026113594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofileq033C7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57755/devtools/browser/8e77a422-f919-4bfe-9e89-f833970a408e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+1674026181619	geckodriver	INFO	Listening on 127.0.0.1:57816
+1674026184665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--headless" "--remote-debugging-port" "57817" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofile5S0L4D"
+*** You are running in headless mode.
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674026185350	Marionette	INFO	Marionette enabled
+1674026185360	Marionette	INFO	Listening on port 57822
+WebDriver BiDi listening on ws://127.0.0.1:57817
+1674026185835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofile5S0L4D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57817/devtools/browser/10cc95f5-5074-4164-b1be-97c9d61ee8a4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
+Exiting due to channel error.
+Listening on 127.0.0.1:57882
+1674026290564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-native-events" "disable-infobars" "--disable-extensions" "--headless" "--remote-debugging-port" "57883" "-no-remote" "-profile" "C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilezHDHQR"
+*** You are running in headless mode.
+console.error: JsonSchemaValidator.jsm: 
+  Ignoring parameter "www.rospotrebnadzor.ru" - scheme (http or https) must be specified.
+console.error: Enterprise Policies: 
+  Invalid parameters specified for Homepage.
+1674026291270	Marionette	INFO	Marionette enabled
+1674026291282	Marionette	INFO	Listening on port 57888
+WebDriver BiDi listening on ws://127.0.0.1:57883
+1674026291821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZAITSE~1\\AppData\\Local\\Temp\\rust_mozprofilezHDHQR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57883/devtools/browser/e5267e44-60e3-463c-96f8-fd368b519847
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://private.proverki.gov.ru."
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://af.gosuslugi.ru/sb.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://esia.gosuslugi.ru."
+JavaScript error: , line 0: uncaught exception: Истекло время ожидания загрузки плагина
