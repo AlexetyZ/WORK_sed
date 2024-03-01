@@ -5,7 +5,7 @@ import openpyxl
 def main(path):
     wb = openpyxl.load_workbook(path)
     sh = wb.worksheets[0]
-    session = SedRequests(userName='Зайцев А.Д')
+    session = SedRequests()
     for row in sh.iter_rows(min_row=7, values_only=True):
         if not row[1]:
             break

@@ -7,11 +7,11 @@ erknm_accounts = {'Alexety': {'login': "al9536@yandex.ru", 'password': b"gAAAAAB
 
 key_path = "D:\keys\primary.key"
 
-SED_Zaytsev_password = b'gAAAAABkdLsruIhs6vIN_QO0lK427EASX0b5gumsqhuIi0k6DHLj76PFRqXZjV5pATSkRRZcfBUWGZx-5AdreEIfOQ3lDxQ21Q=='
+SED_Zaytsev_password = b'gAAAAABl4YLDMn-95XdCXab331oTtoMVB4m5nev7Leat2N11_uSiwOQeI4A1tZ2uyIUeXU01zI_Z9pfUQPV790bs5WIavO4GEg=='
 SED_Zaytsev_ID = '957306'
 
 
-SED_Ratnikov_password = b'gAAAAABkdd9VphXg3rWURxPSPgAIeIb8unqlplpEhfutctq6sx3JF-hNKPRd5pmZQS9eUd4RSOW4vtgIq2tNMzE-A8i6qHazxw=='
+SED_Ratnikov_password = b'gAAAAABlafaJEbaDTtcRqV_zOgy_WuWm6xvSsLNKJgAeNmY7NreCNNWLOkF7hW0Gshw_7pdwPJmPvoPR-OK034CyxjqWuUfhPQ=='
 SED_Ratnikov_ID = '73712'
 
 

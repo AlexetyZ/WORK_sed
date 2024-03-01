@@ -49,7 +49,7 @@ class Crypto:
 
 
 if __name__ == '__main__':
-    password = "@Q78821800q"
+    password = "ksjdfh-klsdkNL"
     print(Crypto().get_hash_password(password=password))
     # print(Crypto().unpack_password(password))
     # print(result)
