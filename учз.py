@@ -19,6 +19,8 @@ from bs4 import BeautifulSoup
 from crypto import Crypto
 from StringWorks import StringNormalizer
 from urllib.parse import quote
+from pprint import pprint
+import re
 
 
 from config import SED_Zaytsev_password, SED_Zaytsev_ID, SED_Ratnikov_password, SED_Ratnikov_ID, appeals_names
@@ -297,12 +299,15 @@ class SedRequests:
                 hrefs.append('/'.join(['https://sed-dsp.rospotrebnadzor.ru', a.get('href')]))
         return hrefs
 
-    def getFirstDocument(self, docNumber: str) -> BeautifulSoup:
+    def getFirstDocument(self, docNumber: str, responce_only: bool = False):
         try:
             link = self.findDocuments(docNumber)[0]
         except:
             raise Exception(f'docNumber: {docNumber}')
         responce = self.session.get(link, headers=self.header)
+        # print(exec("document_og"))
+        if responce_only:
+            return responce
         soup_resp = BeautifulSoup(responce.text, 'lxml')
         return soup_resp
 
@@ -425,6 +430,15 @@ class SedRequests:
         # print(responce.json())
         return responce.json()
 
+    def get_complain_info(self, number):
+        doc = self.getFirstDocument(number, responce_only=False)
+        main = doc.find_all('span', {'class': 'main-document-field'})
+        infos = doc.find_all('tr', {'class': 'og_authors_0 tr_b3'})
+        fio = infos[0].find_next('td', {'class': "b3 highlightable break-word"}).text
+        email = infos[5].find_all('td', {'class': 'b3'})[1].text
+        doc_reg_date = datetime.datetime.strptime(main[1].text.strip(), '%d.%m.%Y').strftime('%Y-%m-%d')
+        return {'number': number, 'fio': fio, 'email': email, 'date': doc_reg_date}
+
     def createNewDoc(self, theme, signator: str, implementer: str, addressats: list, pageCount=1, annex=0, reply=None, petition=None):
         # cookies = {
         #     '_ga': 'GA1.2.2114253625.1701265012',
@@ -546,7 +560,7 @@ class SedRequests:
         return soup_resp
 
 def get_agreed_signators():
-    aggreed = SedRequests().docAgreedSignators('согл-220057851-2')
+    aggreed = SedRequests().docAgreedSignators('согл-220090612-2')
     result = None
     if aggreed:
         signators = ', '.join(aggreed)
@@ -561,6 +575,8 @@ if __name__ == '__main__':
     get_agreed_signators()
 
     # sed = SedRequests()
+    # pprint(sed.get_complain_info('09-5496-2024-05'))
+
     # print(sed.createNewDoc(
     #     theme='О рассмотрении обращения',
     #     signator='Попова А.Ю',
