@@ -4,7 +4,7 @@ import docx
 doc = docx.Document()
 
 
-def addPic(cell, picPath, width: int = 1800720, height: int = 1800720):
+def addPic(cell, picPath, width: int = 1080432, height: int = 1080432):
     paragraph = cell.paragraphs[0]
     run = paragraph.add_run()
     run.add_picture(picPath, width=width, height=height)

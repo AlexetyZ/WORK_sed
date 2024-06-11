@@ -7,7 +7,7 @@ erknm_accounts = {'Alexety': {'login': "al9536@yandex.ru", 'password': b"gAAAAAB
 
 key_path = "D:\keys\primary.key"
 
-SED_Zaytsev_password = b'gAAAAABl4YLDMn-95XdCXab331oTtoMVB4m5nev7Leat2N11_uSiwOQeI4A1tZ2uyIUeXU01zI_Z9pfUQPV790bs5WIavO4GEg=='
+SED_Zaytsev_password = b'gAAAAABmE5ld_PMmE1B-H1Aswh2gJkskCkNzm8z_9g8wFniV1l69ungVoLTWmVsmdJFnYXMBaBsiHXzvKnMogkPACOAuzekgpw=='
 SED_Zaytsev_ID = '957306'
 
 

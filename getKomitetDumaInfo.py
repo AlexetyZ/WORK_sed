@@ -30,7 +30,7 @@ def getKomList(url):
         headers=headers,
         verify=False,
     ).json()
-    return list(response['data']['components'].values())[0]['data']['data']
+    return sorted(list(response['data']['components'].values())[0]['data']['data'], key=lambda x: x['title'])
 
 
 def save_in_doc(kom_list, komitetName):

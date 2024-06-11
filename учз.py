@@ -261,7 +261,7 @@ class SedRequests:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 YaBrowser/23.5.0.2199 Yowser/2.5 Safari/537.36'
         }
         url = 'https://sed-dsp.rospotrebnadzor.ru/auth.php?uri=/'
-        request = self.session.get(url, headers=headers)
+        request = self.session.get(url, headers=headers, verify=False)
         soup = BeautifulSoup(request.text, 'lxml')
         dnsid = soup.find('input', {'type': 'hidden'}).get('value')
         return dnsid
@@ -408,7 +408,7 @@ class SedRequests:
         with open(f'{os.path.dirname(__file__)}/downloads/{StringNormalizer().removeSlashes(docNumber)}.pdf', 'wb') as file:
             file.write(resp.content)
 
-    def get_not_read_list(self):
+    def get_not_read_list(self, limit: int = 0):
         page = 0
         hasNextPage = True
         docsList = []
@@ -418,11 +418,25 @@ class SedRequests:
             link = f'https://sed-dsp.rospotrebnadzor.ru/document.php?DNSID={self.dnsid}&forceuser=1&in_work=1&control_execution_block=review&control_execution_link=all&isJson=0&whole_period=1&ajax=1&page={page}&DNSID={self.dnsid}'
             resp = self.session.get(link, headers=self.header)
             soup = BeautifulSoup(resp.text, 'lxml')
-            allDocs = soup.find_all('tr', {'class': 'document-list__tr r0 s-doc__not-read document-list__tr--has-pages'})
+            allDocs = [{
+                'number_inner': self.normalizeString(doc.find('b', {'class': 'num-hyphens'}).text),
+                'recipient_name': self.normalizeString(doc.find('span', {'class': 's-doc__recipient-name'}).text),
+                'author_name': self.normalizeString(doc.find('span', {'class': 's-doc__author'}).text),
+                'theme': self.normalizeString(doc.find('div', {'class': 's-table__clamping s-table__shortcontent'}).text),
+            } for doc in soup.find_all('tr', {'class': 'document-list__tr r0 s-doc__not-read document-list__tr--has-pages'})]
             docsList.extend(allDocs)
             page += 1
+            if limit:
+                if len(docsList) == limit:
+                    break
             hasNextPage = self.session.get(link0, headers=self.header).json()['data']['pagesOptions']['hasNextPage']
         return docsList
+
+    def normalizeString(self, string: str):
+        string = string.replace('\n', ' ').strip()
+        while '  ' in string:
+            string = string.replace('  ', ' ')
+        return string
 
     def getUsers(self, text):
         url = f'https://sed-dsp.rospotrebnadzor.ru/getusers.php?DNSID={self.dnsid}&&fio={self.encode_string(text)}&offset=0&responseType=json'
@@ -560,7 +574,7 @@ class SedRequests:
         return soup_resp
 
 def get_agreed_signators():
-    aggreed = SedRequests().docAgreedSignators('согл-220090612-2')
+    aggreed = SedRequests().docAgreedSignators('согл-220661483-1')
     result = None
     if aggreed:
         signators = ', '.join(aggreed)
@@ -572,9 +586,15 @@ def get_agreed_signators():
 
 if __name__ == '__main__':
 
+
     get_agreed_signators()
 
     # sed = SedRequests()
+    # limit = 3
+    # pprint(sed.get_not_read_list(limit=limit))
+
+
+
     # pprint(sed.get_complain_info('09-5496-2024-05'))
 
     # print(sed.createNewDoc(
